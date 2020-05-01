@@ -1,1 +1,3 @@
-# EITT-Habitus
+# Habitus
+
+Code for Habitus' landing page!
