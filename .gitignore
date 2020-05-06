@@ -1,2 +1,3 @@
-# Ignore specific file
+# Specific files
+.vscode/
 .DS_Store
