@@ -10,7 +10,7 @@
 # Added
 --------------------------------------------------------------*/
 .center-logo {
-  width: 300px;
+  width: 200px;
 }
 
 /*--------------------------------------------------------------
@@ -267,14 +267,16 @@ span {
   border-radius: 50px;
   transition: 0.5s;
   margin-bottom: 30px;
-  border: 2px solid #71c55d;
+  /* border: 2px solid #71c55d; */
+  border: 2px solid #566bf5;
   background: #fff;
-  color: #71c55d;
+  /* color: #71c55d; */
+  color: #566bf5;
   text-decoration: none;
 }
 
 #hero .btn-get-started:hover {
-  background: #71c55d;
+  background: #566bf5;
   color: #fff;
 }
 
