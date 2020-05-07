@@ -65,7 +65,6 @@ li {
 
 p {
   color: #505050;
-  font-family: 'Open Sans';
   font-size: 14px;
   font-weight: 300;
   letter-spacing: 0.5px;
@@ -1400,5 +1399,6 @@ body.mobile-nav-active #mobile-nav-toggle i {
 
 .footer .copyrights p a, .footer .copyrights .credits a {
   letter-spacing: 0;
-  color: #71c55d;
+  color: #566bf5;
+  /* color: #71c55d; */
 }
