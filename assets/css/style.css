@@ -65,6 +65,7 @@ li {
 
 p {
   color: #505050;
+  font-family: 'Open Sans';
   font-size: 14px;
   font-weight: 300;
   letter-spacing: 0.5px;
@@ -1357,7 +1358,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
   font-size: 24px;
   font-weight: 500;
   height: 100%;
-  letter-spacing: 0.2em;
+  /* letter-spacing: 0.2em; */
   padding-left: 0;
   padding-top: 0;
 }
