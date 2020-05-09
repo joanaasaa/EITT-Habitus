@@ -94,9 +94,9 @@
         if ($('#header').length) {
           top_space = $('#header').outerHeight();
 
-          // if (!$('#header').hasClass('header-fixed')) {
-          //   top_space = top_space - 20;
-          // }
+          if (!$('#header').hasClass('header-fixed') && $('body').hasClass('mobile-nav-active')) {
+            top_space = top_space - 20;
+          }
         }
 
         $('html, body').animate({
