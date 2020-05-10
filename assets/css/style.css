@@ -92,9 +92,9 @@ span {
 }
 
 .img-fluid {
-  height: 60px;
+  height: 100px;
   margin-bottom: 30px;
-  width: 60px;
+  width: 100px;
 }
 
 .container-full {
@@ -285,9 +285,9 @@ span {
 }
 
 #hero .btn-get-started {
-  font-family: "Roboto", sans-serif;
+  font-family: "Raleway", sans-serif;
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 13px;
   letter-spacing: 1px;
   display: inline-block;
@@ -407,11 +407,12 @@ span {
   display: inline-block;
   color: #555;
   font-family: "Raleway", sans-serif;
-  font-weight: 400;
-  font-size: 14px;
+  font-weight: 600;
+  font-size: 12px;
   outline: none;
-  letter-spacing: 0;
+  letter-spacing: 1px;
   transition: 0.3s;
+  text-transform: uppercase;
 }
 
 .nav-menu li:hover > a, .nav-menu > .menu-active > a {
@@ -598,14 +599,14 @@ body.mobile-nav-active #mobile-nav-toggle i {
 }
 
 .section-title .separator {
-  margin: 0;
+  margin: 0px;
 }
 
 .separator {
   color: #777;
   /* color: #626262; */
   font-family: "Raleway", sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 300;
   margin-bottom: 20px;
   /* text-transform: capitalize; */
@@ -646,15 +647,16 @@ body.mobile-nav-active #mobile-nav-toggle i {
 
 #get-started .feature-block a { /* Read more button*/
   color: #505050; 
-  font-size: 12px;
+  font-size: 10px;
   font-weight: 600;
   text-decoration: none;
-  text-transform: capitalize;
+  text-transform: uppercase;
   transition: 0.3s;
 }
 
 #get-started .feature-block a:hover {
-  color: #71c55d;
+  /* color: #71c55d; */
+  color: #566bf5
 }
 
 /* About Us Section
