@@ -10,7 +10,15 @@
 * Light blue: #566bf5
 * Medium blue: #304199
 * Dark blue: #1d204e
-*/
+*
+* HABITUS FONTS
+* Website heading: Fjalla One, font-size: 48px (Welcome to habutus)
+* Website subtitle: Raleway, font-size: 25px (The friendliest habit tracker yet!)
+* Section title: Roboto, font-size: 45px, font-weigh: 100
+* Section subtitle: Raleway, font-size: 20 px
+* Buttons: Raleway, font-size: 13px, text-transform: uppercase
+* Square titles: Raleway, font-size: 13px, text-transform: uppercase, font-weigh: 700
+**/
 
 @charset "UTF-8";
 /*--------------------------------------------------------------
@@ -50,7 +58,7 @@ h4 {
   font-size: 13px;
   font-weight: 700;
   letter-spacing: 4px;
-  text-transform: uppercase; /* CAPITAAL LETERED TTLES */
+  text-transform: uppercase; /* CAPITAL LETERED TITLES */
   line-height: 2;
 }
 
