@@ -265,7 +265,7 @@ span {
 #hero h2 {
   color: #777;
   margin-bottom: 30px;
-  font-size: 22px;
+  font-size: 25px;
   font-family: "Raleway", sans-serif;
   font-weight: 300;
   /* font-style: italic; */
@@ -407,7 +407,7 @@ span {
   display: inline-block;
   color: #555;
   font-family: "Raleway", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 12px;
   outline: none;
   letter-spacing: 1px;
@@ -441,10 +441,11 @@ span {
   display: block;
   font-size: 14px;
   text-transform: none;
+  font-weight: 400;
 }
 
 .nav-menu ul li:hover > a {
-  color: #71c55d;
+  color: #566bf5;
 }
 
 .nav-menu ul ul {
@@ -604,9 +605,9 @@ body.mobile-nav-active #mobile-nav-toggle i {
 
 .separator {
   color: #777;
-  /* color: #626262; */
+  /* color: #1d204e; */
   font-family: "Raleway", sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 300;
   margin-bottom: 20px;
   /* text-transform: capitalize; */
@@ -884,13 +885,42 @@ body.mobile-nav-active #mobile-nav-toggle i {
   width: 100%;
 }
 
+#team .team-block h4 {
+  color: #000;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  text-transform: uppercase; /* CAPITAAL LETERED TTLES */
+  line-height: 2;
+}
+
 @media (max-width: 991px) {
   #team .team-block {
     margin-bottom: 30px;
   }
 }
 
-#team .team-block img {
+/* #team .team-block img {
+  width: 100%;
+} */
+
+#team .team-block .bruno {
+  width: 108%;
+}
+
+#team .team-block .carlos {
+  width: 109%;
+}
+
+#team .team-block .joana {
+  width: 108%;
+}
+
+#team .team-block .mariana {
+  width: 100%;
+}
+
+#team .team-block .carolina {
   width: 100%;
 }
 
@@ -925,8 +955,22 @@ body.mobile-nav-active #mobile-nav-toggle i {
   transition: 0.3s;
 }
 
+#team .team-block .team-content ul li a .tw {
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px;
+  transition: 0.3s;
+}
+
+#team .team-block .team-content ul li a .li {
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px;
+  transition: 0.3s;
+}
+
 #team .team-block .team-content ul li a .fa:hover {
-  color: #71c55d;
+  color: #566bf5;
 }
 
 #team .team-block .team-content ul > span {
@@ -1422,7 +1466,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 .footer .copyrights p, .footer .copyrights .credits {
   margin: 0;
   padding: 0;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: normal;
   font-size: 14px;
   letter-spacing: 0;
