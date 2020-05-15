@@ -12,7 +12,7 @@
 * Dark blue: #1d204e
 *
 * HABITUS FONTS
-* Website heading: Fjalla One, font-size: 48px (Welcome to habutus)
+* Website heading: Fjalla One, font-size: 48px (Welcome to habitus)
 * Website subtitle: Raleway, font-size: 25px (The friendliest habit tracker yet!)
 * Section title: Roboto, font-size: 45px, font-weigh: 100
 * Section subtitle: Raleway, font-size: 20 px
@@ -135,7 +135,7 @@ span {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #71c55d;
+  background: #566bf5;
   line-height: 1;
   color: #fff;
   padding: 7px 12px 13px 12px;
@@ -153,13 +153,13 @@ span {
 }
 
 .back-to-top:focus {
-  background: #71c55d;
+  background: #566bf5;
   color: #fff;
   outline: none;
 }
 
 .back-to-top:hover {
-  background: #55b03f;
+  background: rgb(61, 121, 233);
   color: #fff;
 }
 
@@ -1080,10 +1080,31 @@ body.mobile-nav-active #mobile-nav-toggle i {
   width: 100%;
 }
 
+.check {
+  height: 20px;
+}
+
 @media (max-width: 991px) {
   #pricing .block-pricing {
     margin-bottom: 30px;
   }
+}
+
+.price h2{
+  display: inline;
+}
+
+.price span{
+  font-size: 70%;
+}
+
+.price h4{
+  display: inline;
+}
+
+.col-centered{
+  float: none;
+  margin: 0 auto;
 }
 
 #pricing .block-pricing .table {
@@ -1119,14 +1140,14 @@ body.mobile-nav-active #mobile-nav-toggle i {
 }
 
 #pricing .block-pricing .table .table_btn a {
-  background: #71c55d;
+  background: #566bf5;
   color: #fff;
   margin: 0;
   display: inline-block;
 }
 
 #pricing .block-pricing .table .table_btn a:hover {
-  background: #55b03f;
+  background: #001181;
 }
 
 #pricing .block-pricing .table .table_btn a .fa {
@@ -1292,7 +1313,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 
 #contact .info i {
   font-size: 32px;
-  color: #71c55d;
+  color: #304199;
   float: left;
 }
 
@@ -1314,8 +1335,8 @@ body.mobile-nav-active #mobile-nav-toggle i {
 #contact .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #71c55d;
-  color: #fff;
+  background: #fff;
+  color: #1d204e;
   line-height: 1;
   padding: 6px 0 8px 0;
   border-radius: 50%;
@@ -1326,8 +1347,8 @@ body.mobile-nav-active #mobile-nav-toggle i {
 }
 
 #contact .social-links a:hover {
-  background: #55b03f;
-  color: #fff;
+  background: #1d204e;
+  color: white;
 }
 
 #contact .php-email-form .validate {
@@ -1370,7 +1391,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
+  border: 3px solid black;
   border-top-color: #eee;
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
@@ -1395,15 +1416,19 @@ body.mobile-nav-active #mobile-nav-toggle i {
 }
 
 #contact .php-email-form button[type="submit"] {
-  background: #71c55d;
-  border: 0;
+  background: rgb(87, 94, 102);
+  font: Raleway;
+  border: 0px solid rgb(87, 94, 102);
   padding: 10px 24px;
-  color: #fff;
+  color: white;
+  border-radius: 10px;
   transition: 0.4s;
 }
 
 #contact .php-email-form button[type="submit"]:hover {
-  background: #92d283;
+  background: rgb(132, 145, 160);
+  color: white;
+  border: px solid rgb(132, 145, 160);
 }
 
 @-webkit-keyframes animate-loading {
