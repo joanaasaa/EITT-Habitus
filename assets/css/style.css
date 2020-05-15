@@ -135,7 +135,7 @@ span {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #71c55d;
+  background: #566bf5;
   line-height: 1;
   color: #fff;
   padding: 7px 12px 13px 12px;
@@ -153,13 +153,13 @@ span {
 }
 
 .back-to-top:focus {
-  background: #71c55d;
+  background: #304199;
   color: #fff;
   outline: none;
 }
 
 .back-to-top:hover {
-  background: #55b03f;
+  background: #304199;
   color: #fff;
 }
 
