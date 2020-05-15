@@ -12,7 +12,7 @@
 * Dark blue: #1d204e
 *
 * HABITUS FONTS
-* Website heading: Fjalla One, font-size: 48px (Welcome to habutus)
+* Website heading: Fjalla One, font-size: 48px (Welcome to habitus)
 * Website subtitle: Raleway, font-size: 25px (The friendliest habit tracker yet!)
 * Section title: Roboto, font-size: 45px, font-weigh: 100
 * Section subtitle: Raleway, font-size: 20 px
@@ -1080,10 +1080,32 @@ body.mobile-nav-active #mobile-nav-toggle i {
   width: 100%;
 }
 
+.check {
+  height: 20px;
+}
+
 @media (max-width: 991px) {
   #pricing .block-pricing {
     margin-bottom: 30px;
   }
+}
+
+.price h2{
+  display: inline;
+}
+
+.price span{
+  font-size: 70%;
+}
+
+.price h4{
+  font-size: 15px;
+  display: inline;
+}
+
+.col-centered{
+  float: none;
+  margin: 0 auto;
 }
 
 #pricing .block-pricing .table {
@@ -1292,7 +1314,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 
 #contact .info i {
   font-size: 32px;
-  color: #71c55d;
+  color: #566bf5;
   float: left;
 }
 
@@ -1314,8 +1336,8 @@ body.mobile-nav-active #mobile-nav-toggle i {
 #contact .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #71c55d;
-  color: #fff;
+  background: #fff;
+  color: #566bf5;
   line-height: 1;
   padding: 6px 0 8px 0;
   border-radius: 50%;
@@ -1326,8 +1348,8 @@ body.mobile-nav-active #mobile-nav-toggle i {
 }
 
 #contact .social-links a:hover {
-  background: #55b03f;
-  color: #fff;
+  background: #304199;
+  color: white;
 }
 
 #contact .php-email-form .validate {
@@ -1370,7 +1392,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
+  border: 3px solid #304199;
   border-top-color: #eee;
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
@@ -1395,15 +1417,23 @@ body.mobile-nav-active #mobile-nav-toggle i {
 }
 
 #contact .php-email-form button[type="submit"] {
-  background: #71c55d;
-  border: 0;
+  background: #566bf5;
+  font: "Raleway";
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 13px;
+  border: 0px solid #566bf5;
   padding: 10px 24px;
-  color: #fff;
+  color: white;
+  border-radius: 10px;
   transition: 0.4s;
 }
 
 #contact .php-email-form button[type="submit"]:hover {
-  background: #92d283;
+  background: #304199;
+  color: white;
+  border: px solid #304199;
 }
 
 @-webkit-keyframes animate-loading {
